@@ -1,0 +1,174 @@
+* {
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    max-width: 776px;
+    margin: 0 auto;
+    
+}
+
+.switch_icon {
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center; */
+
+    /* padding: 0 auto; */
+    margin: 40px auto 0 auto;
+    width: 40px;
+}
+
+
+
+.swtich-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    font-size: 12px;
+}
+
+
+.photo_img {
+    display: flex;
+    width: 215px;
+    border-radius: 50%;
+
+}
+
+.header {
+    display: flex;
+
+    /* margin: 62px; */
+    max-height: 215px;
+
+}
+
+.header_photo {
+    margin-right: 40px;
+}
+
+.header_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header_description-name {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 69px;
+}
+
+.text-name {
+    color: #3D3D3D;
+}
+
+.text-page {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #575757;
+}
+
+.header_description-position {
+
+}
+
+.header_description-icons {
+    display: flex;
+    justify-content: space-around;
+    
+    opacity: 60%;
+}
+
+/* _____________________________DESCRIPTION BLOCK____________     */
+
+.description {
+    margin-top: 40px;
+    max-height: 142px;
+    max-width: 776px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.description_text {
+
+}
+
+.description_text {
+    max-width: 136px;
+}
+
+/* _____________________CONTACTS BLOCK_______________________ */
+
+
+.contacts {
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.button:hover {
+    border: 1px solid black;
+}
+
+.contactscv {
+    background-color: #FBD144;
+}
+
+.img_background {
+    background-color: #FBD144;
+    margin-top: 5px;
+}
+/* _______SELF_DESCRIPTION________________ */
+
+.self_description {
+    margin-top: 40px
+}
+
+.switch_buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    width: 776px;
+    height: 110px;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 2px auto;
+}
+
+.portfolio_button {
+    background-color: #D7D7D7;
+}
+
+.skills_button {
+    background-color: #D7D7D7;
+}
+
+/* ____________________________SELF DESCRIPTION_______________________ */
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio_image {
+    border-radius: 10px;
+    width: 362px;
+    height: 226px;
+    margin: 24px 12px;
+    /* align-content: space-between; */
+}
