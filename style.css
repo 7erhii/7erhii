@@ -6,6 +6,7 @@
 .wrapper {
     max-width: 776px;
     margin: 0 auto;
+    margin-top: 40px;
     
 }
 
@@ -15,7 +16,7 @@
     justify-content: center; */
 
     /* padding: 0 auto; */
-    margin: 40px auto 0 auto;
+    margin: 0 auto;
     width: 40px;
 }
 
@@ -81,6 +82,7 @@
     justify-content: space-around;
     
     opacity: 60%;
+    margin: 0 -15px;
 }
 
 /* _____________________________DESCRIPTION BLOCK____________     */
