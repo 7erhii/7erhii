@@ -19,7 +19,26 @@
     margin: 0 auto;
     width: 40px;
 }
+/* _____________Portfolio_____________ */
 
+/* .portfolio_bar {
+
+    width: 776px;
+    height: 80px;
+    background-color: #3D3D3D;
+    
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #7b7878;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-bottom: -20px;
+} */
+
+
+/* _____________Portfolioend_____________ */
 
 
 .swtich-help {
@@ -83,7 +102,10 @@
     
     opacity: 60%;
     margin: 0 -15px;
+    
 }
+
+
 
 /* _____________________________DESCRIPTION BLOCK____________     */
 
