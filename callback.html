@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФЕНИКС</title>
+
+    <link rel="stylesheet" href="/style_reset.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('fQj1uvzvRAL72Cwh0');
+        })();
+    </script>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet"> -->
+
+
+    <!-- 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<section class="contact">
+    <div class="wrapper">
+        <a class="contact_link" href="mailto:Kotelevskaya@list.ru">Kotelevskaya@list.ru</a>
+        <a class="contact_link" href="tel:79919303510">+7 991 930 35 10</a>
+
+    </div>
+</section>
+<section class="top">
+    <div class="wrapper">
+        <header class="header">
+            <a href="./index.html">
+                <img src="/img/logo.png" alt="Fenix logo">
+            </a>
+            <nav>
+                <ul class="header_menu">
+                    <li><a href="./index.html">На главную</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <!-- <li><a href="">Информация</a></li> -->
+                </ul>
+            </nav>
+        </header>
+    </div>
+</section>
+
+
+<!-- _________ADDED______ -->
+
+<div class="container">
+
+    <!-- content содержит содержимое формы -->
+    <div class="content">
+
+        <!-- Левая колонка: адрес, телефоны, email. Можете добавить свое -->
+        <div class="left-side">
+            <div class="address details">
+
+                <!-- Вместо классов: название шрифтовых иконок (fontawesome.com) -->
+                <i class="fas fa-map-marker-alt"></i>
+
+                <!-- topic - заголовок, text-one, text-two - текст -->
+                <div class="topic">Адрес</div>
+                <div class="text-one">г. Москва</div>
+                <div class="text-two">Пресненская наб., 8 стр. 1</div>
+            </div>
+            <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Телефон</div>
+                <a class="text-one" href="tel:79919303510">+7 991 930 35 10</a>
+
+            </div>
+            <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <a class="text-one" href="mailto:Kotelevskaya@list.ru">Kotelevskaya@list.ru</a>
+
+            </div>
+        </div>
+
+        <!-- Правая колонка: сама форма -->
+        <div class="right-side">
+
+            <!-- Заголовок для формы -->
+            <div class="topic-text">Отправьте нам сообщение</div>
+
+            <!-- Какой-то дополнительный текст -->
+            <p>
+                Если у вас есть какие-то вопросы или предложения по сотрудничеству -
+                заполните форму ниже
+            </p>
+
+            <!-- Форма обратной связи -->
+            <form action="#">
+
+                <!-- Каждый input для выравнивания вкладываем в блок input-box -->
+                <div class="input-box">
+                    <input type="text" placeholder="Ваше имя" class="input-name"/>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Введите email" class="input-email"/>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Введите телефон" class="input-phone"/>
+                </div>
+                <div class="input-box message-box">
+                    <textarea placeholder="Сообщение" class="input-message"></textarea>
+                </div>
+                <!-- _________ADDED______ -->
+
+                <div class="control-group">
+                    <h1>Как с вами связаться?</h1>
+                    <label class="control control--radio">E-mail
+                        <input type="radio" name="how-connect" value="email" checked="checked"/>
+                        <div class="control__indicator"></div>
+                    </label>
+                    <label class="control control--radio">Телефонный звонок
+                        <input type="radio" name="how-connect" value="phone"/>
+                        <div class="control__indicator"></div>
+                    </label>
+
+                    <label class="control control--radio">Сообщение в мессенжере
+                        <input type="radio" name="how-connect" value="whatsup"/>
+                        <div class="control__indicator"></div>
+                    </label>
+
+                </div>
+
+
+                <!-- _________ADDED______ -->
+
+
+                <div class="button button--submit">
+                    <input type="button" value="Отправить"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Подключение шрифтовых иконок, можно получить на fontawesome.com -->
+<script
+        src="https://kit.fontawesome.com/fce9a50d02.js"
+        crossorigin="anonymous"
+></script>
+
+<script type="text/javascript">
+    window.onload = function () {
+
+
+        const buttonSubmit = document.querySelector('.button--submit');
+
+        buttonSubmit.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            const nameValue = document.querySelector('.input-name').value;
+            const emailValue = document.querySelector('.input-email').value;
+            const phoneValue = document.querySelector('.input-phone').value;
+            const messageValue = document.querySelector('.input-message').value;
+            const howToContact = document.querySelector('input[name="how-connect"]:checked').value;
+
+            const data = {
+                service_id: 'service_75a7xa9',
+                template_id: 'template_plh994f',
+                user_id: 'ZgXjxvwrwnBYjqDbW',
+                template_params: {
+                    'from_name': nameValue,
+                    'email': emailValue,
+                    'phone': phoneValue,
+                    'message': messageValue,
+                    'how_contact': howToContact
+                }
+            };
+
+            $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: 'application/json'
+            }).done(function () {
+                alert('Ваше Соообщение Отправлено!');
+                document.querySelector('.input-name').value = '';
+                document.querySelector('.input-email').value = '';
+                document.querySelector('.input-phone').value = '';
+                document.querySelector('.input-message').value = '';
+            }).fail(function (error) {
+                console.warn('Oops... ' + JSON.stringify(error));
+            });
+
+
+        });
+
+
+    }
+</script>
+</body>
+</html>
